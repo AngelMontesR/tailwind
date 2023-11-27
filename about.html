@@ -6,7 +6,7 @@
         <title>Tailwind CSS</title>
         <link rel="stylesheet" href="./css/tailwind.css">
     </head>
-    <body class="bg-slate-200">
+    <body class="bg-slate-200 flex flex-col h-screen">
         <header class="bg-white px-6 shadow">
             <div class="flex justify-between h-16 items-center max-w-7xl mx-auto">
                 <button class="rounded p-1 text-blue-600 hover:bg-indigo-950 hover:transition-colors hover:text-white focus:ring-1 focus:ring-slate-indigo-500">
@@ -45,86 +45,22 @@
                 <a class="block px-3 py-2 rounded-md text-blue-600 hover:bg-indigo-950 hover:text-white transition-colors" href="/contacto.html">Contacto</a>
             </div>
         </header>
-        <main class="p-4">
-          <div class="max-w-7xl mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-5 mt-5 mb-5">
-            <article class="bg-white shadow rounded overflow-hidden flex flex-col">
-                <div class="h-52">
-                    <img class="h-full w-full object-cover object-center" src="/img/article-5.jpg" alt="Desarrollo de una API con Laravel">
-                </div>
-                <div class="p-5 space-y-3 flex-1">
-                    <h3 class="text-sm font-semibold text-blue-600">Laravel</h3>
-                    <h2 class="text-xl font-semibold leading-tight">Desarrollo de una API con Laravel</h2>
-                    <p class="text-slate-600 hidden md:block">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio reiciendis assumenda ex impedit sapiente nihil, vel aut asperiores, quo ullam accusamus nemo placeat quaerat repudiandae magni! Voluptas voluptate expedita totam.
+        <main class="p-4 flex-1">
+          <div class="max-w-7xl mx-auto mt-5 mb-5">
+            <div class="max-w-4xl mx-auto p-16 bg-white rounded-lg shadow-lg">
+                <h1 class="text-3xl font-serif font-extrabold text-blue-600 text-center">Acerca de</h1>
+                <div class="mt-10 space-y-4 text-slate-500">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores reprehenderit quaerat quo distinctio? Alias neque culpa, voluptatibus qui voluptatem, veritatis accusantium accusamus libero ipsum distinctio a consectetur sunt illo facere?
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente iusto quis laudantium corporis consequuntur corrupti asperiores. Nam minima, provident praesentium hic animi doloremque sint. Saepe suscipit sint nostrum ipsam. Quo!
+                    </p>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure autem praesentium ea incidunt magnam in odit repellat fugiat, labore commodi vitae et quis rerum laudantium ab sed ad blanditiis ipsa.
                     </p>
                 </div>
-                <div class="flex p-5 space-x-2">
-                    <img class="h-10 sw-10 rounded-full" src="https://ui-avatars.com/api?name=Angel Montes" alt="Angel Montes">
-                    <div class="flex flex-col justify-center">
-                        <span class="text-sm font-semibold leading-4 text-slate-600">Angel Montes</span>
-                        <span class="text-sm text-blue-600">Lunes 27, Noviembre 2023</span>
-                    </div>
-                </div>
-            </article>
-            <article class="bg-white shadow rounded overflow-hidden flex flex-col">
-                <div class="h-52">
-                    <img class="h-full w-full object-cover object-center" src="/img/article-1.jpg" alt="Desarrollo de una API con Laravel">
-                </div>
-                <div class="p-5 space-y-3 flex-1">
-                    <h3 class="text-sm font-semibold text-blue-600">Laravel</h3>
-                    <h2 class="text-xl font-semibold leading-tight">Desarrollo de una API con Laravel</h2>
-                    <p class="text-slate-600 hidden md:block">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio reiciendis assumenda ex impedit sapiente nihil, vel aut asperiores, quo ullam accusamus nemo placeat quaerat repudiandae magni! Voluptas voluptate expedita totam.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio reiciendis assumenda ex impedit sapiente nihil, vel aut asperiores, quo ullam accusamus nemo placeat quaerat repudiandae magni! Voluptas voluptate expedita totam.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio reiciendis assumenda ex impedit sapiente nihil, vel aut asperiores, quo ullam accusamus nemo placeat quaerat repudiandae magni! Voluptas voluptate expedita totam.  
-                    </p>
-                </div>
-                <div class="flex p-5 space-x-2">
-                    <img class="h-10 sw-10 rounded-full" src="https://ui-avatars.com/api?name=Angel Montes" alt="Angel Montes">
-                    <div class="flex flex-col justify-center">
-                        <span class="text-sm font-semibold leading-4 text-slate-600">Angel Montes</span>
-                        <span class="text-sm text-blue-600">Lunes 27, Noviembre 2023</span>
-                    </div>
-                </div>
-            </article>
-            <article class="bg-white shadow rounded overflow-hidden flex flex-col">
-                <div class="h-52">
-                    <img class="h-full w-full object-cover object-center" src="/img/article-2.jpg" alt="Desarrollo de una API con Laravel">
-                </div>
-                <div class="p-5 space-y-3 flex-1">
-                    <h3 class="text-sm font-semibold text-blue-600">Laravel</h3>
-                    <h2 class="text-xl font-semibold leading-tight">Desarrollo de una API con Laravel</h2>
-                    <p class="text-slate-600 hidden md:block">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio reiciendis assumenda ex impedit sapiente nihil, vel aut asperiores, quo ullam accusamus nemo placeat quaerat repudiandae magni! Voluptas voluptate expedita totam.
-                    </p>
-                </div>
-                <div class="flex p-5 space-x-2">
-                    <img class="h-10 sw-10 rounded-full" src="https://ui-avatars.com/api?name=Angel Montes" alt="Angel Montes">
-                    <div class="flex flex-col justify-center">
-                        <span class="text-sm font-semibold leading-4 text-slate-600">Angel Montes</span>
-                        <span class="text-sm text-blue-600">Lunes 27, Noviembre 2023</span>
-                    </div>
-                </div>
-            </article>
-            <article class="bg-white shadow rounded overflow-hidden flex flex-col">
-                <div class="h-52">
-                    <img class="h-full w-full object-cover object-center" src="/img/article-4.jpg" alt="Desarrollo de una API con Laravel">
-                </div>
-                <div class="p-5 space-y-3 flex-1">
-                    <h3 class="text-sm font-semibold text-blue-600">Laravel</h3>
-                    <h2 class="text-xl font-semibold leading-tight">Desarrollo de una API con Laravel</h2>
-                    <p class="text-slate-600 hidden md:block">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio reiciendis assumenda ex impedit sapiente nihil, vel aut asperiores, quo ullam accusamus nemo placeat quaerat repudiandae magni! Voluptas voluptate expedita totam.
-                    </p>
-                </div>
-                <div class="flex p-5 space-x-2">
-                    <img class="h-10 sw-10 rounded-full" src="https://ui-avatars.com/api?name=Angel Montes" alt="Angel Montes">
-                    <div class="flex flex-col justify-center">
-                        <span class="text-sm font-semibold leading-4 text-slate-600">Angel Montes</span>
-                        <span class="text-sm text-blue-600">Lunes 27, Noviembre 2023</span>
-                    </div>
-                </div>
-            </article>
+            </div>
           </div>
         </main>
         <footer class="py-8 bg-white">
